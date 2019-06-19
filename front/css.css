@@ -1,0 +1,156 @@
+#selectSearch {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    padding: 5px !important;
+    border: 2px solid black !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+
+#searchText {
+    display: inline-block;
+    width: 350px;
+    height: 30px;
+    margin-left: 20px;
+    padding: 5px;
+    padding-left: 50px;
+    border: 2px solid black !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+
+#searchIcon {
+    display: inline-block;
+
+    position: absolute;
+    margin-left: 35px;
+    top: 15px;
+    background-image: url('search.png');
+    width: 30px;
+    height: 30px;
+}
+
+#buttonSearch {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border: 2px solid black !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+
+#buttonSearch:hover {
+    background-color: #20936C;
+    cursor: pointer;
+}
+
+#searchBar {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+
+    background: #0080ff;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+
+}
+
+#searchBar-content {
+    margin-left: 200px;
+}
+
+#productPage {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    
+    /*background-color: #E6783C;*/
+}
+#productDetail {
+    margin: 10px;
+
+
+}
+
+.productImage {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+#img1 {
+    background-image: url('1.jpg');
+}
+
+.inform {
+    float: left;
+}
+
+.inform .title {
+	  width: 100px;
+    font-weight: 900;
+    display: inline-block;
+}
+
+.inform .text {
+    display: inline-block;
+}
+
+.oneLine {
+  
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.leftProduct{
+     background-color: #ABAAA9;
+	display: inline-block;
+	margin-left: 20px;
+	width: 45%;
+	
+ border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+	-webkit-box-shadow: 10px 10px 26px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 26px -6px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 26px -6px rgba(0,0,0,0.75);
+}
+.leftProduct:hover{
+	background-color:#A4F1A6 !important;
+	cursor: pointer;
+}
+.rightProduct:hover{
+	background-color:#A4F1A6 !important;
+	cursor: pointer;
+}
+.rightProduct{
+    background-color: #ABAAA9;
+	display: inline-block;
+	width: 45%;
+	margin-left: 30px;
+	border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    
+	-webkit-box-shadow: 10px 10px 26px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 26px -6px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 26px -6px rgba(0,0,0,0.75);
+}
+
