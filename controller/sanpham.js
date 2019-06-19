@@ -89,4 +89,31 @@ router.post('/similarName', (req, res) => {
             });
         })
 })
+router.post('/similarCategoryName', (req, res) => {
+    var name = req.body.tenloaisanpham;
+        //name=name.replaceAll("-"," ");
+    console.log(name);
+    sanphamrepo.getall().then(rows => {
+            var arr= [] ;
+            for (i = 0; i < rows.length; i++) {
+                var string = '' + rows[i].Tenloaisp;
+                string=string.toLowerCase();
+                name=name.toLowerCase();
+                if (string.includes(name)) {
+
+                    arr.push(rows[i]);
+                }
+
+
+            }
+            res.json({
+                arr:arr
+            });
+        })
+        .catch(err => {
+            res.json({
+                err: "error"
+            });
+        })
+})
 module.exports = router;
